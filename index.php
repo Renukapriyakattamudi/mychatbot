@@ -10,10 +10,13 @@ if($method == 'POST'){
 			$speech = "Facebook is an American online social media and social networking service company";
 			break;
 		case 'Flipkart':
-			$speech = "Bye, good night";
+			$speech = "Flipkart Pvt Ltd. is an Indian electronic commerce company based in Bengaluru, India. 
+			Founded by Sachin Bansal and Binny Bansal (no relation) in 2007, the company initially focused on book sales, 
+			before expanding into other product categories such as consumer electronics, fashion, and lifestyle products.";
 			break;
 		case 'Amazon':
-			$speech = "Yes, you can type anything here.";
+			$speech = "Amazon.com, Inc., doing business as Amazon (/ˈæməˌzɒn/), is an American electronic commerce and cloud computing company based in Seattle, 
+			Washington that was founded by Jeff Bezos on July 5, 1994.";
 			break;
 		
 		default:

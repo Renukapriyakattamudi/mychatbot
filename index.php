@@ -5,7 +5,7 @@ if($method == 'POST'){
 	$requestBody = file_get_contents('php://input');
 	$json = json_decode($requestBody);
 	$whatvar = $json->result->parameters->text;
-	switch ($text) {
+	switch ($whatvar) {
 		case 'Facebook':
 			$speech = "Facebook is an American online social media and social networking service company";
 			break;

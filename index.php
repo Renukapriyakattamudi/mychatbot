@@ -31,7 +31,9 @@ if($method == 'POST'){
 			$speech = "IMPS is a faster way to do a fund without adding a payee. IMPS is available 24 hours of the day, all days of the week, throughout the year. There are no holiday restrictions on IMPS transactions.";
 			break;
 		case 'moneytransfer':
-			$speech = "Ago to Payments & Transfer > Fund Transfer > Your linked ICICI Bank account / Pockets wallet";
+			$speech = "Ago to Payments & Transfer > Fund Transfer > Your linked ICICI Bank account / Pockets wallet
+			<a href="http://www.google.co.in/"
+			/>";
 			break;
 		
 		default:

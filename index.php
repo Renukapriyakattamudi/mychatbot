@@ -4,7 +4,7 @@ $method = $_SERVER['REQUEST_METHOD'];
 if($method == 'POST'){
 	$requestBody = file_get_contents('php://input');
 	$json = json_decode($requestBody);
-	$whatvar = $json->result->parameters->text;
+	$whatvar = $json->result->parameters->whatvar;
 	switch ($whatvar) {
 		case 'Aadhar':
 			$speech = "go to Customer Service > Service Requests > Bank Accounts > 

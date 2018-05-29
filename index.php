@@ -6,17 +6,18 @@ if($method == 'POST'){
 	$json = json_decode($requestBody);
 	$whatvar = $json->result->parameters->text;
 	switch ($whatvar) {
-		case 'Facebook':
-			$speech = "Facebook is an American online social media and social networking service company";
+		case 'Aadhar':
+			$speech = "go to Customer Service > Service Requests > Bank Accounts > 
+			Update your Aadhaar number with Bank account  > Enter the required details and submit it.";
 			break;
-		case 'Flipkart':
-			$speech = "Flipkart Pvt Ltd. is an Indian electronic commerce company based in Bengaluru, India. 
-			Founded by Sachin Bansal and Binny Bansal (no relation) in 2007, the company initially focused on book sales, 
-			before expanding into other product categories such as consumer electronics, fashion, and lifestyle products.";
+		case 'PPF':
+			$speech = "Automatic linking will be done if the Public Provident Fund (PPF) 
+			account is opened under the same Customer ID. 
+			However, if the PPF account is opened with a different User ID, the linking request should be made 
+			at any ICICI Bank branch by submitting the physical form.";
 			break;
-		case 'Amazon':
-			$speech = "Amazon.com, Inc., doing business as Amazon (/ˈæməˌzɒn/), is an American electronic commerce and cloud computing company based in Seattle, 
-			Washington that was founded by Jeff Bezos on July 5, 1994.";
+		case 'moneytransfer':
+			$speech = "Ago to Payments & Transfer > Fund Transfer > Your linked ICICI Bank account / Pockets wallet";
 			break;
 		
 		default:

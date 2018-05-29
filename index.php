@@ -21,6 +21,9 @@ if($method == 'POST'){
 		case 'openppf':
 			$speech = "go to My Accounts > PPF Accounts > Click on Open Now> Enter the required details and submit.";
 			break;		
+		case 'matureppf':
+			$speech = "A Public Provident Fund (PPF) account gets matured after the completion of 15 years from the end of the year in which the account was opened.";
+			break;	
 		case 'moneytransfer':
 			$speech = "Ago to Payments & Transfer > Fund Transfer > Your linked ICICI Bank account / Pockets wallet";
 			break;

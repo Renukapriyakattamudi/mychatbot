@@ -9,6 +9,12 @@ if($method == 'POST'){
 		case 'Aadhar':
 			$speech = "go to Customer Service > Service Requests > Bank Accounts > Update your Aadhaar number with Bank account  > Enter the required details and submit it.";
 			break;
+		case 'ChangeAadhar':
+			$speech = "go to Customer Service > Service Requests > Bank Accounts > Update your Aadhaar number with Bank account  > Enter the required details and submit it.";
+			break;
+		case 'CheckAadhar':
+			$speech = "go to Bank Accounts > My Aadhaar number";
+			break;
 		case 'PPF':
 			$speech = "Automatic linking will be done if the Public Provident Fund (PPF) account is opened under the same Customer ID. However, if the PPF account is opened with a different User ID, the linking request should be made at any ICICI Bank branch by submitting the physical form.";
 			break;

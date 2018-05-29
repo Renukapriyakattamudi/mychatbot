@@ -10,7 +10,7 @@ if($method == 'POST'){
 			$speech = "go to Customer Service > Service Requests > Bank Accounts > Update your Aadhaar number with Bank account  > Enter the required details and submit it.";
 			break;
 		case 'ChangeAadhar':
-			$speech = "go to Customer Service > Service Requests > Bank Accounts > Update your Aadhaar number with Bank account  > Enter the required details and submit it.";
+			$speech = "to chnage aadhar, go to Customer Service > Service Requests > Bank Accounts > Update your Aadhaar number with Bank account  > Enter the required details and submit it.";
 			break;
 		case 'CheckAadhar':
 			$speech = "go to Bank Accounts > My Aadhaar number";

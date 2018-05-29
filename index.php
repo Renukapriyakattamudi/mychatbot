@@ -24,6 +24,12 @@ if($method == 'POST'){
 		case 'matureppf':
 			$speech = "A Public Provident Fund (PPF) account gets matured after the completion of 15 years from the end of the year in which the account was opened.";
 			break;	
+		case 'useimps':
+			$speech = "You can use the funds immediately on receipt of credit in your account.";
+			break;
+		case 'impsbenefit':
+			$speech = "IMPS is a faster way to do a fund without adding a payee. IMPS is available 24 hours of the day, all days of the week, throughout the year. There are no holiday restrictions on IMPS transactions.";
+			break;
 		case 'moneytransfer':
 			$speech = "Ago to Payments & Transfer > Fund Transfer > Your linked ICICI Bank account / Pockets wallet";
 			break;

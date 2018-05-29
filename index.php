@@ -26,7 +26,7 @@ if($method == 'POST'){
 	$response = new \stdClass();
 	$response->speech = $speech;
 	$response->displayText = $speech;
-	$response->source = "creationportal";
+	$response->source = "mychatbot";
 	echo json_encode($response);
 }
 else
